@@ -1,0 +1,237 @@
+@import "toastify-js/src/toastify.css";
+* {
+  margin:0;
+  padding:0;
+  font-family: "Nunito", sans-serif;
+
+
+}
+body{
+  width:100%;
+  height:100%;
+  margin:0;
+  padding:0; 
+  justify-content: center;
+  align-items: center;
+  left:50%;
+}
+#header{
+  margin:0;
+padding:0;
+background-color: rgb(54, 54, 54);
+color: white;
+}
+#menuHamburguesa{
+  display:none;
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+#navbar {
+  width: 100%;
+  padding:0;
+  margin:0;
+  background-image: linear-gradient(90deg, white 65%, rgb(54, 54, 54)95%);
+ }
+ #catalogo-may, #lista-precios, #donde-estamos, #contacto{
+  color:rgb(10, 54, 54);
+ }
+
+#cuerpo{
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+.home-hero{
+  margin:0;
+  padding:0;
+}
+.hero-inner{
+  margin:0;
+  padding:0;
+}
+
+.home-hero video {
+  margin:0;
+  padding:0;
+  left:50%;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) !important;
+  -o-transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 5; 
+  }
+
+
+.titulo-ppal{
+  font-family: 'Playball', cursive;
+  font-size: 4rem;
+  background-color: rgb(54, 54, 54);
+  color: white; }
+
+
+
+/*************** Footer *******/
+footer {
+ position:relative;
+  bottom:0;
+  margin:0;
+  padding:0;
+  padding-top:1rem;
+  padding-top:1rem;
+  min-width:100vw;
+  background-color: rgb(54, 54, 54);
+  color: white;
+}
+
+  footer .redesFooter {
+    margin-bottom: 3vh; }
+    footer .redesFooter a {
+      margin: 0; }
+  footer ul li {
+    color: rgb(213, 250, 250);
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 2vw;
+    text-align: left;
+    list-style-type: none;
+    text-decoration: none;
+    margin:0;
+  padding:0 0 0.5rem 0; }
+  .col-iframe{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+  }
+    footer iframe {
+      height: 15rem;
+      width:15rem;
+      border-radius: 0.8vh; }
+    footer ul li #subir {
+      position: relative;
+      font-weight: normal;
+      color: white;
+      text-decoration: none;
+      background-color: rgb(74, 114, 114);
+      border-radius: 10px;
+      padding: 1.5vh;
+      transition: padding 300ms, border-radius 300ms; }
+      footer ul li #subir:hover {
+        border-radius: 1.2vh;
+        padding: 2vh; }
+  footer ul .copyright {
+    width: 100%;
+    padding:0;
+    margin:0;
+    font-weight: normal;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    text-align: center; }
+  #copyright-text{
+    padding:0;
+    margin:0;
+    background-color: rgb(54, 54, 54);
+    color: white;
+  }
+
+
+/******************************/
+/*MEDIA QUERY PARA SMARTPHONE*/
+/*Header*/
+@media (max-width: 480px) {
+#navbar{
+  display:none;
+}
+#menuHamburguesa{
+  display:flex;
+  align-content: center;
+  background-color: rgb(42, 161, 161);
+}
+#menuHamburguesa p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: white; 
+margin-top:0.5rem;}
+#logoHamburguesa{
+  height:30px;
+}
+
+/*Index*/
+.titulo-ppal{
+  font-size: 2.2rem;
+margin-bottom: 1rem;}
+.descripcion, .procedimiento{
+  font-size:1rem;}
+.ingredientesSeleccionar, .cantidadesReceta, .productosCarrito{
+  justify-content: center;
+}
+.card-seleccionar, .card-body-receta, .card-carrito{
+  margin: 1rem 0;
+}
+
+/*Comprar*/
+.cardsMetodosPago{
+  display: flex;
+  flex-wrap: wrap;
+}
+.metodoPagoNombre{
+  height:8rem;
+}
+.imgForm{
+  height:6rem;
+  margin:1rem 0;
+}
+.imgRapipago{
+  height:5rem;
+  margin:1rem 0;
+}
+
+/*Footer*/
+  footer ul li {
+    font-size:1rem;
+    line-height: 2rem;
+    
+  }
+  #subir {
+    margin: 20vh 0 10vh 0;
+  }
+.copyright p{
+  line-height: 2rem;
+}
+}
+
+/******************************/
+/*MEDIA QUERY PARA Tablet*/
+/*Header*/
+@media  (min-width:481px) and (max-width:1024px){
+
+  #navbar{
+    display:none;
+  }
+  #menuHamburguesa{
+    display:flex;
+    align-content: center;
+    background-color: rgb(42, 161, 161);
+  }
+  #menuHamburguesa p {
+    text-align: center;
+    font-size: 1.1rem;
+    color: white; 
+  margin-top:0.5rem;}
+
+  /*Index*/
+  .cardsMetodosPago{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .imgForm{
+    height:6rem;
+    margin:1rem 0;
+  }
+  .imgRapipago{
+    height:5rem;
+    margin:1rem 0;
+  }
+}
