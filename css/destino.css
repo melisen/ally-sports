@@ -175,34 +175,7 @@ margin-top:0.5rem;}
 }
 
 /*Index*/
-.titulo-ppal{
-  font-size: 2.2rem;
-margin-bottom: 1rem;}
-.descripcion, .procedimiento{
-  font-size:1rem;}
-.ingredientesSeleccionar, .cantidadesReceta, .productosCarrito{
-  justify-content: center;
-}
-.card-seleccionar, .card-body-receta, .card-carrito{
-  margin: 1rem 0;
-}
 
-/*Comprar*/
-.cardsMetodosPago{
-  display: flex;
-  flex-wrap: wrap;
-}
-.metodoPagoNombre{
-  height:8rem;
-}
-.imgForm{
-  height:6rem;
-  margin:1rem 0;
-}
-.imgRapipago{
-  height:5rem;
-  margin:1rem 0;
-}
 
 /*Footer*/
   footer ul li {
@@ -210,9 +183,7 @@ margin-bottom: 1rem;}
     line-height: 2rem;
     
   }
-  #subir {
-    margin: 20vh 0 10vh 0;
-  }
+
 .copyright p{
   line-height: 2rem;
 }
@@ -238,16 +209,5 @@ margin-bottom: 1rem;}
   margin-top:0.5rem;}
 
   /*Index*/
-  .cardsMetodosPago{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .imgForm{
-    height:6rem;
-    margin:1rem 0;
-  }
-  .imgRapipago{
-    height:5rem;
-    margin:1rem 0;
-  }
+  
 }
