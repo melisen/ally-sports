@@ -121,18 +121,18 @@ footer {
       footer ul li #subir:hover {
         border-radius: 1.2vh;
         padding: 2vh; }
-  footer ul li #whatsbutton{
+  footer ul li .whatsbutton{
     position: relative;
     font-weight: normal;
     text-decoration: none;
-    background-image: linear-gradient(130deg, rgb(0, 249, 171) 65%, rgb(0, 218, 254)90%);
+    background-image: linear-gradient(140deg, rgb(0, 249, 171) 65%, rgb(0, 218, 254)90%);
     border-radius: 10px;
     padding: 1.5vh;
     transition: padding 300ms, border-radius 300ms; }
-    footer ul li #whatsbutton:hover {
+    footer ul li .whatsbutton:hover {
       border-radius: 1.2vh;
       padding: 2vh;}
-      footer ul li #whatsbutton a {
+      footer ul li .whatsbutton a {
         text-decoration: none;
       color:rgb(1, 69, 47);
     font-weight:bold;}
