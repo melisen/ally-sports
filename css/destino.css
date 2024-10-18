@@ -109,18 +109,35 @@ footer {
       height: 15rem;
       width:15rem;
       border-radius: 0.8vh; }
+
     footer ul li #subir {
       position: relative;
       font-weight: normal;
       color: white;
       text-decoration: none;
-      background-color: rgb(74, 114, 114);
+      background-image: linear-gradient(130deg, rgb(1, 198, 136) 55%, rgb(0, 249, 171) 80%, rgb(0, 249, 171) 85%, rgb(0, 218, 254)90%);
       border-radius: 10px;
       padding: 1.5vh;
       transition: padding 300ms, border-radius 300ms; }
       footer ul li #subir:hover {
         border-radius: 1.2vh;
         padding: 2vh; }
+  footer ul li #whatsbutton{
+    position: relative;
+    font-weight: normal;
+    text-decoration: none;
+    background-image: linear-gradient(130deg, rgb(1, 198, 136) 55%, rgb(0, 249, 171) 80%, rgb(0, 249, 171) 85%, rgb(0, 218, 254)90%);
+    border-radius: 10px;
+    padding: 1.5vh;
+    transition: padding 300ms, border-radius 300ms; }
+    footer ul li #whatsbutton:hover {
+      border-radius: 1.2vh;
+      padding: 2vh;}
+      footer ul li #whatsbutton a {
+        text-decoration: none;
+      color:white;
+    font-weight:bold;}
+
   footer ul .copyright {
     width: 100%;
     padding:0;
