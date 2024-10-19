@@ -64,11 +64,7 @@ color: white;
   }
 
 
-.titulo-ppal{
-  font-family: 'Playball', cursive;
-  font-size: 4rem;
-  background-color: rgb(54, 54, 54);
-  color: white; }
+
 
 
 
@@ -172,6 +168,9 @@ footer {
 margin-top:0.5rem;}
 #logoHamburguesa{
   height:30px;
+}
+home-hero video {
+  max-width:480px;
 }
 
 /*Index*/
