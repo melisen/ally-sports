@@ -75,7 +75,7 @@ footer {
   margin:0;
   padding:0;
   padding-top:1rem;
-  min-width:100vw;
+  min-width:100%;
   background-color: rgb(54, 54, 54);
   color: white;
 }
@@ -88,7 +88,6 @@ footer {
     color: rgb(213, 250, 250);
     font-weight: normal;
     font-size: 1rem;
-    line-height: 2vw;
     text-align: left;
     list-style-type: none;
     text-decoration: none;
@@ -169,9 +168,7 @@ margin-top:0.5rem;}
 #logoHamburguesa{
   height:30px;
 }
-home-hero video {
-  max-width:480px;
-}
+
 
 /*Index*/
 
